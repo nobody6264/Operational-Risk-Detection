@@ -17,5 +17,4 @@ Then we introduce a novel behavioral logic heterograph learning enhanced with ex
 ![image3](./images/he-9.jpg)
 ## Dataset
 we provide an financial operational risk graph dataset called **XWRisk**.The dataset contains daily operational logsfrom 01/01/2021 to 31/12/2021. Each daily operational log file comprises approximately 6,148,000 activities performed on 14 internal systems by 800 employees affiliated with 67 departments.
-The example data and labels *XWRisk/data_and_labels.pkl* are saved on <a href='链接: https://pan.baidu.com/s/1HLjbrDYWYNOG1wWgrd0Wcw?pwd=g6ta 提取码: g6ta'><img height="15" src="./images/baidu_icon.jpeg"/></a> 
-and can be loaded through the following code.
+The example data and labels *XWRisk/data_and_labels.pkl* are saved on <a href='链接: https://pan.baidu.com/s/1HLjbrDYWYNOG1wWgrd0Wcw?pwd=g6ta 提取码: g6ta'><img height="15" src="./images/baidu_icon.jpeg"/></a>.
