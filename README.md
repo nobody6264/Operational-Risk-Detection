@@ -15,3 +15,7 @@ In this study, we apply heterographs to model the streaming operational logic.
 ![image2](./images/operation-heterograph-3.jpeg)
 Then we introduce a novel behavioral logic heterograph learning enhanced with expert experience. we initially develop a risk scoring model, informed by expert experience, capable of allocating scores within the interval $(0,1)$ corresponding to varying risk levels. Subsequently, during the graph contrastive learning phase, we employ these expert-derived scores to fine-tune the spatial distribution of graph features within a low-dimensional space. This strategy ensures that all normal samples are oriented towards a concentrated and evenly distribution in the space, while directing risk-bearing samples towards distinctly separate regions.
 ![image3](./images/he-9.jpg)
+## Dataset
+we provide an financial operational risk graph dataset called **XWRisk**.The dataset contains daily operational logsfrom 01/01/2021 to 31/12/2021. Each daily operational log file comprises approximately 6,148,000 activities performed on 14 internal systems by 800 employees affiliated with 67 departments.
+The example data and labels *XWRisk/data_and_labels.pkl* are saved on <a href='链接: https://pan.baidu.com/s/1HLjbrDYWYNOG1wWgrd0Wcw?pwd=g6ta 提取码: g6ta'><img height="15" src="./images/baidu_icon.jpeg"/></a> 
+and can be loaded through the following code.
