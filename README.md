@@ -1,12 +1,9 @@
 # Behavioral Logic Heterograph Learning Enhanced with Expert Experience to Identify Operational Risks
 ## Abstract
-Operational risks are a prevalent issue across various industries, potentially causing substantial losses each year. The identification and prevention of operational risks have been drawing significant attention. 
-However, operational risks have three characteristics that make identification challenging: (a) involvement of multiple interrelated heterogeneous entities, (b) insufficient risk labels due to their low frequency, and (c) dynamically changing risk patterns.
-For addressing such three issues, we here propose a novel risk identification framework combining graph pretraining with fine-tuning. 
-In the graph pretraining stage, behavioral logic is depicted by heterographs, which are then mapped into low-dimensional vectors by a heterograph learning algorithm enhanced with expert experience.
-By injecting expert experience, subtle changes in operational risk features can be captured.
-During the fine-tuning phase, we devise a risk identification model built upon psychological behavioral analysis. This model exhibits superior generalization performance, particularly in scenarios with limited risk labels and shifting risk patterns.
-Experiments conducted on a series of operational risk datasets have demonstrated that our framework exhibits outstanding performance.
+Operational risks are a growing concern across various industries, which cause substantial losses annually. Despite the increasing attention towards their identification and prevention, three key characteristics make this task challenging: (a) involvement of multiple interrelated heterogeneous entities, (b) subtle yet damaging, (c) insufficient risk labels due to their low frequency, and (d) dynamically changing risk patterns.
+For addressing such four issues, we propose a novel risk identification framework which combines graph pretraining with finetuning. In the pretraining stage, behavioral logic is depicted through heterographs, which are subsequently transformed into low-dimensional vectors via a heterograph learning algorithm. This algorithm is enhanced with expert experience, enabling it to capture subtle changes in operational risk features.
+During the finetuning phase, we introduce a risk identification model grounded in psychological behavioral analysis. This model exhibits superior generalization performance, particularly in scenarios with limited risk labels and shifting risk patterns.
+Extensive experiments on a series of datasets validate outstanding performance of our framework.
 ## Framework
 In this framework, we first use a large language model (LLM) to transform expert experience into a series of abnormal operational graphs and inject them into the knowledge base. Using such data, we train a risk scoring model, which guides the learning of operational logic heterogeneous graphs that are encoded into low-dimensional vectors. Next, we estimate the distribution of these vectors to identify operational risks. Finally, risk experts further review the model results and update the knowledge base.
 
