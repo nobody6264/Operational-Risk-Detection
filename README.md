@@ -11,6 +11,10 @@ In this framework, we first use a large language model (LLM) to transform expert
    <img src="https://github.com/nobody6264/Operational-Risk-Detection/blob/main/images/overview-8.jpg" width="600">
 </p>
 
+<p align="center">
+   <img src="https://github.com/nobody6264/Operational-Risk-Detection/blob/main/images/initial stage.jpg" width="600">
+</p>
+
 The heterogeneous graphs, consisting of different types of nodes and edges, are a powerful data structure usually used for abstracting and depicting complex systems in which objects of different types interact with each other in various ways.
 In this study, we apply heterographs to model the streaming operational logic.
 
